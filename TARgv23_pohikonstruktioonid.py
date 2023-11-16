@@ -36,22 +36,28 @@ from random import *
 #print("d1=",d1)
 
 #6
-try:
-    aeg = float(input("Mitu tundi kulus sõiduks? "))
-    teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
-    kiirus = teepikkus/aeg
-    print("Sinu kiirus oli " + str(kiirus) + " km/h")
-except :
-    print("Andmetüübi viga!")
+#try:
+#    aeg = float(input("Mitu tundi kulus sõiduks? "))
+#    teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+#    kiirus = teepikkus/aeg
+#    print("Sinu kiirus oli " + str(kiirus) + " km/h")
+#except :
+#    print("Andmetüübi viga!")
 
 #7
-a1=randint(1,10)
-a2=randint(1,10)
-a3=randint(1,10)
-a4=randint(1,10)
-a5=randint(1,10)
-print("Arvude {0},{1},{2},{3} ja {4} aritmeetiline keskmine on {5}".format(a1,a2,a3,a4,a5,(a1+a2+a3+a4+a5)/5))
+#a1=randint(1,10)
+#a2=randint(1,10)
+#a3=randint(1,10)
+#a4=randint(1,10)
+#a5=randint(1,10)
+#print("Arvude {0},{1},{2},{3} ja {4} aritmeetiline keskmine on {5}".format(a1,a2,a3,a4,a5,(a1+a2+a3+a4+a5)/5))
 
+#8
+
+print("    @..@")
+print("   (----)")
+print("  ( \__/ )")
+print('  ^^ "" ^^ ')
 
 
 
