@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TARgv23_pohikonstruktioonid", "TARgv23_pohikonstruktioonid.pyproj", "{346DD48F-F621-4665-92A0-181409D3E5F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{346DD48F-F621-4665-92A0-181409D3E5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346DD48F-F621-4665-92A0-181409D3E5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DA20A14-FC15-4FDD-A6E6-97EE2E7E9D15}
+	EndGlobalSection
+EndGlobal
