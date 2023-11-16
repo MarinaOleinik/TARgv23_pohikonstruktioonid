@@ -59,7 +59,13 @@ print("   (----)")
 print("  ( \__/ )")
 print('  ^^ "" ^^ ')
 
+#9
+#...iseseisvalt
 
+#10
+#...iseseisvalt
+
+#Iseseisev töö "Vigade otsing -1"
 
 
 #Esimene osa:
