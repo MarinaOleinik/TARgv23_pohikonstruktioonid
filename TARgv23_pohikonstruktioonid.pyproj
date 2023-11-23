@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>346dd48f-f621-4665-92a0-181409d3e5f4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TARgv23_pohikonstruktioonid.py</StartupFile>
+    <StartupFile>Valikud_IF.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="TARgv23_pohikonstruktioonid.py" />
+    <Compile Include="Valikud_IF.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
