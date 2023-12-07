@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>346dd48f-f621-4665-92a0-181409d3e5f4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Valikud_IF.py</StartupFile>
+    <StartupFile>Jarjendid_Ulesanne.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="If_Ülesanded.py" />
+    <Compile Include="Jarjendid_Ulesanne.py" />
+    <Compile Include="Kordused.py" />
     <Compile Include="TARgv23_pohikonstruktioonid.py" />
     <Compile Include="Valikud_IF.py" />
   </ItemGroup>
