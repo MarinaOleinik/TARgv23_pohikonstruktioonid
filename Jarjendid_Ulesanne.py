@@ -9,9 +9,8 @@ print(num_list)
 for element in num_list:
     if element<0:
         n=num_list.index(element)
-        num_list.pop(n)
-        element=abs(element)
-        num_list.insert(n,element)
+        num_list[n]=abs(element)
+
 print("\tAbsoluut värtused:")
 print(num_list)
 num_list.sort()

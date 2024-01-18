@@ -1,0 +1,22 @@
+print(" Text {0} text".format(muutuja))
+float()
+vastus=input()
+str()
+bool()
+int()
+round(arv, pos)
+eval() -"2+2"=2+2=4
+capitalize()-> "Text"
+upper() -> "TEXT"
+lower() -> "text"
+center(16,"*")-> "******Text******"
+
+from math import * -> pi, sqrt(arv)=arv**(1/2)
+from random import * -> randint(min,max), random()={0,1}
+from datetime import * -> datetime.now()=2024-01-08 11:35:39.464689 date.today()=2024-01-08
+try:
+	tegevus
+except:
+	tegevus, kui viga
+
+if a>=1000: # a<=0, a!=3000
