@@ -1,21 +1,20 @@
 def Loe_failist(fail:str)->list:
     jarjend=[]
-    raagi=""
+    raagi="" #-----------------
     f=open(fail,'r',encoding="utf-8")
     for rida in f:
         jarjend.append(rida.strip())
-        raagi+=rida
+        raagi+=rida#--------------------
     f.close()
-    return jarjend,raagi
+    return jarjend,raagi#-----------------
 
 def Kirjuta_failisse(fail:str,jarjend:list):
     f=open(fail,'w',encoding="utf-8")
     for item in jarjend:
-        f.write(item+'\n')
-        
+        f.write(item+'\n')      
     f.close()
-test_to_speech=""
-paevad, test_to_speech=Loe_failist("Paevad.txt")
+test_to_speech=""#---------------
+paevad, test_to_speech=Loe_failist("Paevad.txt")#------------
 print(paevad)
 
 list_=[]
