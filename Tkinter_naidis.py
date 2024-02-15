@@ -14,7 +14,6 @@ def showtarnid(event):
         ent.configure(show="")
         showflag=False
     else:
-        t=ent.get()
         ent.configure(show="*")
         showflag=True
 

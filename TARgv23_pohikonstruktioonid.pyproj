@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>346dd48f-f621-4665-92a0-181409d3e5f4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tkinter_naidis.py</StartupFile>
+    <StartupFile>Võrrand.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,7 @@
     <Compile Include="Tkinter_naidis.py" />
     <Compile Include="TooFailidega.py" />
     <Compile Include="Valikud_IF.py" />
+    <Compile Include="Võrrand.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="auto.png" />

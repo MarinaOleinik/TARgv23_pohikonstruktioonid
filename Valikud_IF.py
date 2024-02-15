@@ -1,3 +1,20 @@
+
+from colorama import *
+init()  
+# prints "Green text" in Green
+print(Fore.GREEN + "Green text" + Style.RESET_ALL)
+
+# Using the Termcolor library
+from termcolor import colored, cprint
+print(colored("Blue text", "blue"))  
+# prints "Blue text" in Blue
+import sys
+
+
+text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
+print(text)
+
+
 #Võileib
 soov=input("Kas tahad süüa?:").lower()
 if soov=="jah" or soov=="yes" or soov=="да":
