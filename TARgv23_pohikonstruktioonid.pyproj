@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>346dd48f-f621-4665-92a0-181409d3e5f4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Võrrand.py</StartupFile>
+    <StartupFile>Tiiger.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Database_Sqlite3.py" />
     <Compile Include="If_Ülesanded.py" />
     <Compile Include="Jarjendid_Ulesanne.py" />
+    <Compile Include="Json_kasutamine.py" />
     <Compile Include="Kordused.py" />
     <Compile Include="TARgv23_pohikonstruktioonid.py" />
+    <Compile Include="Tiiger.py" />
     <Compile Include="Tkinter_naidis.py" />
     <Compile Include="TooFailidega.py" />
     <Compile Include="Valikud_IF.py" />
@@ -34,6 +37,9 @@
     <Content Include="auto.png" />
     <Content Include="Nimed.txt" />
     <Content Include="Paevad.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppData\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

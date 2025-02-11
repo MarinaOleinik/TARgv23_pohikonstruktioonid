@@ -34,6 +34,6 @@ with open('Nimed.txt', 'r') as f:
 from os import *
 if path.isfile("Nimi.txt"):   #path.isdir(kaust)
     remove("Nimed.txt") #faili kustutamine, kui ta on olemas
-    from gtts import gTTS
+from gtts import gTTS
 
 Heli(test_to_speech,"et")

@@ -2,6 +2,7 @@ from math import sqrt
 from tkinter import *
 import numpy as np
 import matplotlib.pyplot as plt
+
 def lahenda():
     if a.get()=="": 
         a.configure(bg="red")
@@ -48,6 +49,7 @@ def graafik():
 
 aken=Tk()
 aken.geometry("650x260")
+
 aken.title("Rootvõrrandid")
 f1=Frame(aken,width=650,height=260)
 f1.pack(side=TOP)
